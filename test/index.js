@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var validators = require('../src/validators');
+var validators = require('../src/index');
 
 describe('baseValidators.validate test', function() {
   it('should return true if keys are the same', function() {

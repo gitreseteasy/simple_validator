@@ -66,6 +66,15 @@ v.typesMatch(null,'null');//true
 v.typesMatch(undefined,'undefined');//true
 v.typesMatch(12, 'string');//false
 
+//see if two inputs are equal, including arbitrary depth objects
+v.equal(24,24);//true
+v.equal('i like turtles','i like turtles');//true
+v.equal(false,false);//true
+v.equal([1,2,3,4], [1,2,3,4]);//true
+v.equal({foo: "potato"},{foo: "potato"});//true
+v.equal(null,null);//true
+v.equal(undefined,undefined);//true
+v.equal(12, '12');//false
 
 //returns a cleaned, valid criteria object
 v.getCleanedCriteriaObject({
