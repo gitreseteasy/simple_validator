@@ -6,7 +6,7 @@ Examples:
 
 ```javascript
 
-var v = require('./validators/validators');
+var v = require('./simple_validators');//index
 
 var myRequestBody = {
   id: "foobarbaz123456",
