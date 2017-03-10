@@ -54,7 +54,7 @@ v.lengthMax([1,2,3,4], 3);//false
 
 //check if object keys Match:
 v.keysMatch({foo: "potato"},{foo: "carrot"});//true
-v.keysMatch({foo: "potato"},{bar: "potato"});//true
+v.keysMatch({foo: "potato"},{bar: "potato"});//false
 
 //check if types Match:
 v.typesMatch(24,'number');//true
