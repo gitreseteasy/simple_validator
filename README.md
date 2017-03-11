@@ -92,3 +92,13 @@ v.getCleanedCriteriaObject({
 */
 
 ```
+
+The accepted criterion values are:
+
+  - length: number (0-n)
+  - lengthMin: number (0-n)
+  - lengthMax: number (0-n)
+  - type: 'string', 'array', 'object', 'number', 'boolean', 'null', 'undefined'
+  - equal: (anything)
+
+Each key in a criteria object is assumed to be required
