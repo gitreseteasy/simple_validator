@@ -33,7 +33,7 @@ var myCriteriaObject = {
 v.validate(myRequestBody, myCriteriaObject);//true (or false if not valid)
 
 ```
-The accepted criterion values are:
+The accepted criterion keys and values are:
 
   - length: number (0-n)
   - lengthMin: number (0-n)
