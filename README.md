@@ -32,6 +32,21 @@ var myCriteriaObject = {
 
 v.validate(myRequestBody, myCriteriaObject);//true (or false if not valid)
 
+```
+The accepted criterion values are:
+
+  - length: number (0-n)
+  - lengthMin: number (0-n)
+  - lengthMax: number (0-n)
+  - type: 'string', 'array', 'object', 'number', 'boolean', 'null', 'undefined'
+  - equal: (anything)
+
+Each top-level key in a criteria object is assumed to be required
+
+###Exposed inner methods##
+
+```javascript
+
 //We can also use some of the inner methods used in the validate method.
 
 //compare length:
@@ -92,13 +107,3 @@ v.getCleanedCriteriaObject({
 */
 
 ```
-
-The accepted criterion values are:
-
-  - length: number (0-n)
-  - lengthMin: number (0-n)
-  - lengthMax: number (0-n)
-  - type: 'string', 'array', 'object', 'number', 'boolean', 'null', 'undefined'
-  - equal: (anything)
-
-Each top-level key in a criteria object is assumed to be required
