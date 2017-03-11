@@ -101,4 +101,4 @@ The accepted criterion values are:
   - type: 'string', 'array', 'object', 'number', 'boolean', 'null', 'undefined'
   - equal: (anything)
 
-Each key in a criteria object is assumed to be required
+Each top-level key in a criteria object is assumed to be required
